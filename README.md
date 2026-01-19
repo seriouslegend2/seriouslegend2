@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passionate about **future tech**. My focus is on building intelligent **AI agents** and scalable systems.
+I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passionate about **future tech**. My focus is on building intelligent **AI agents** using tools like **LangChain** & **LangGraph**, and creating scalable systems.
 
 # 💻 Tech Stack:
 
@@ -16,6 +16,21 @@ I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passiona
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 # 📊 GitHub Stats:
+
+<div align="center"> 
+  <a href="https://github.com/seriouslegend2">
+    <img src="https://img.shields.io/badge/Total_Contributions-661+-success?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/seriouslegend2">
+    <img src="https://img.shields.io/badge/Pull_Requests-106-orange?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/seriouslegend2">
+    <img src="https://img.shields.io/badge/Organizations-2-blueviolet?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seriouslegend2/seriouslegend2/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seriouslegend2/seriouslegend2/output/github-contribution-grid-snake.svg">
@@ -30,3 +45,4 @@ I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passiona
 
 ---
 [![](https://visitcount.itsvg.in/api?id=seriouslegend2&icon=0&color=0)](https://visitcount.itsvg.in)
+
