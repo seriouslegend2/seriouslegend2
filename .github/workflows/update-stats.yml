@@ -19,22 +19,26 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # Force the output filename
+          # Force file location
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics"
           
           # -----------------------------------------------------
-          # THE FIX: Enable "Deep Search" for PRs and Reviews
+          # FIX: Count Private Organizations & PRs
           # -----------------------------------------------------
+          plugin_people: yes
+          plugin_people_types: followers, following
+          
+          # This forces it to look at organizations you belong to
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          
+          # Deep search for PRs in organizations
           plugin_followup: yes
           plugin_followup_sections: repositories
-          
-          # This counts code reviews specifically
-          plugin_people: yes
-          plugin_people_types: followers, following, sponsoring, sponsors, thanks
-          
+          plugin_followup_indepth: yes
           # -----------------------------------------------------
           
           plugin_isocalendar: yes
