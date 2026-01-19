@@ -19,13 +19,24 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # Force the output filename and location
+          # Force the output filename
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics"
           
-          # Your existing plugin settings
+          # -----------------------------------------------------
+          # THE FIX: Enable "Deep Search" for PRs and Reviews
+          # -----------------------------------------------------
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          
+          # This counts code reviews specifically
+          plugin_people: yes
+          plugin_people_types: followers, following, sponsoring, sponsors, thanks
+          
+          # -----------------------------------------------------
+          
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
