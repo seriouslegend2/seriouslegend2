@@ -24,18 +24,9 @@ I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passiona
 
 <br/>
 
-<div align="center"> 
-  <a href="https://github.com/seriouslegend2">
-    <img src="https://img.shields.io/badge/Total_Contributions-661-success?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/seriouslegend2">
-    <img src="https://img.shields.io/badge/Pull_Requests-106-orange?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/seriouslegend2">
-    <img src="https://img.shields.io/badge/Organizations-2-blueviolet?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+<div align="center">
+  <img src="./github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=seriouslegend2&icon=0&color=0)](https://visitcount.itsvg.in)
-
