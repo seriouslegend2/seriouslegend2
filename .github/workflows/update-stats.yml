@@ -19,41 +19,36 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # Force file location
+          # Force file location so the README can always find it
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics"
           
           # -----------------------------------------------------
-          # AGGRESSIVE SEARCH MODE
+          # THE "SEXY" VISUALS (Safe Mode)
           # -----------------------------------------------------
-          # 1. Force count of all repositories you committed to (Private & Public)
-          plugin_repositories: yes
-          plugin_repositories_featured: seriouslegend2/seriouslegend2
+          # 1. The 3D Isometric Calendar (The best part)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           
-          # 2. Deep search for PRs (Bypasses the "Event Feed" limit)
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_followup_indepth: yes
-          plugin_followup_archived: yes
-          
-          # 3. Show Organization Activity specifically
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          
-          # 4. Count lines of code in private repos
+          # 2. The Colorful Language Bar
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: lines, percentage
-          # -----------------------------------------------------
-
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          
+          # 3. Trophies & Achievements
           plugin_achievements: yes
           plugin_achievements_display: compact
+          
+          # 4. PRs & Org (Standard Search - Prevents Crash)
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          # -----------------------------------------------------
 
   generate-snake:
     runs-on: ubuntu-latest
@@ -78,5 +73,6 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
           
           
