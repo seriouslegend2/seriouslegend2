@@ -19,7 +19,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # Force file location so the README can always find it
+          # Force file location
           filename: github-metrics.svg
           output_action: commit
           committer_branch: main
@@ -28,7 +28,7 @@ jobs:
           # -----------------------------------------------------
           # THE "SEXY" VISUALS (Safe Mode)
           # -----------------------------------------------------
-          # 1. The 3D Isometric Calendar (The best part)
+          # 1. The 3D Isometric Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
@@ -39,15 +39,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: lines, percentage
           
-          # 3. Trophies & Achievements
+          # 3. Trophies
           plugin_achievements: yes
           plugin_achievements_display: compact
-          
-          # 4. PRs & Org (Standard Search - Prevents Crash)
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_introduction: yes
-          plugin_introduction_title: yes
           # -----------------------------------------------------
 
   generate-snake:
@@ -73,6 +67,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          
-          
