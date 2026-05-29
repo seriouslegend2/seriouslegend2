@@ -1,5 +1,5 @@
-# 💫 About Me:
-I am a student at **IIIT Sri City** and an **AI Intern** at **Kookar**, passionate about **future tech**. My focus is on building intelligent **AI agents** using tools like **LangChain** & **LangGraph**, and creating scalable systems.
+#  About Me:
 
 
 
+<img width="1500" height="1471" alt="image" src="https://github.com/user-attachments/assets/d000b2eb-3042-4f28-a8ef-83c12f7a4291" />
